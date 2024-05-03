@@ -1,0 +1,55 @@
+false - orange
+class MyClass { constructor() { this.property = getRandomString(); } }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+class MyClass { constructor() { this.property = getRandomString(); } }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const isEven = num => num % 2 === 0;
+orange * false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomElement = array => array[getRandomIndex(array)];
+
+93 / 25,30,48,57,21,59,40,1,74,52,54,34,79,44,70,71,24,64,35,37,49,23,21,20,21,61,76,73,50,57,70,82,54,27,8,95,87,17,44,62,65,34,14,51,88,21,72,76,7,53,66,44,59,85,1,44,77
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple
+
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getUniqueValues = array => [...new Set(array)];
+apple
+
+const reverseString = str => str.split("").reverse().join("");
+banana
+
+const randomNumber = getRandomNumber();
+true / true
+
+const capitalizeString = str => str.toUpperCase();
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const multiply = (a, b) => a * b;
+43,63,18,54,54,46,96,2,72,38,14,80,97,69,26,53,5,37,17,30,26,94,5,9,88,54,84,89,18,97,52,57,89,15,12,31,5,50,20,4,50,51,22,55,76,12,84,48,55,61,12,33,78,7,33,62,53,8,64,70,88,95,29,32,25,26,55,46,0,3,49,58,70,64,80,35,28,6,75,74,77,50,2,0,67,77,41,18 - 79,37,63,45,6,88,71,68,75,84,65,47,5,27,45,34,46,29,17,16,2,56,61,35,65,70
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const removeDuplicates = array => Array.from(new Set(array));
+const sum = (a, b) => a + b;
+orange
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const formatDate = date => new Date(date).toLocaleDateString();
+92 / false
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
